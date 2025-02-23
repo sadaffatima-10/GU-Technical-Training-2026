@@ -25,4 +25,3 @@ I am a passionate B.Tech student exploring the world of AI and ML. I enjoy solvi
 
 > _"Success is the sum of small efforts, repeated day in and day out."_
 
-Would you like me to add more sections, like skills, projects, or achievements? Let me know! ✌️
