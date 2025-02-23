@@ -1,9 +1,7 @@
-package Sliding_Window;
-
 import java.util.Scanner;
 
-class Solution {
-    public int numberOfAlternatingGroups(int[] colors) {
+public class problem1 {
+    public static int numberOfAlternatingGroups(int[] colors) {
 
         int n=colors.length;
         int s=0;
@@ -22,14 +20,13 @@ class Solution {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the length of array");
         int n=sc.nextInt();
-        System.out.println("Enter the array");
-        int[] colors=new int[n];
+        int arr[]=new int[n];
         for(int i=0;i<n;i++)
         {
-            colors[i]=sc.nextInt();
+            arr[i]=sc.nextInt();
         }
-        Solution s=new Solution();
-        int ans = s.numberOfAlternatingGroups(colors);
+        int ans=numberOfAlternatingGroups(arr);
         System.out.println(ans);
     }
+    
 }
