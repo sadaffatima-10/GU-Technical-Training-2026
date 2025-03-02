@@ -41,26 +41,22 @@ public class SlidingWindowMaximum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input size of array
         System.out.print("Enter the size of the array: ");
         int n = scanner.nextInt();
 
         int[] nums = new int[n];
 
-        // Input array elements
         System.out.print("Enter the elements of the array: ");
         for (int i = 0; i < n; i++) {
             nums[i] = scanner.nextInt();
         }
 
-        // Input window size k
         System.out.print("Enter window size k: ");
         int k = scanner.nextInt();
 
         SlidingWindowMaximum sol = new SlidingWindowMaximum();
         int[] result = sol.maxSlidingWindow(nums, k);
 
-        // Output result
         System.out.println("Maximum values in each sliding window: " + Arrays.toString(result));
 
         scanner.close();
